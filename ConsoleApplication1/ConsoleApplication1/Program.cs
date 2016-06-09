@@ -12,9 +12,14 @@ namespace ConsoleApplication1
         {
             for (int i = 0; i<1000; i++)
             {
-                Console.WriteLine("Item " + i + Environment.NewLine);
+                Employee emp = new Employee
+                {
+                    Id = i,
+                    Name = "Ivan Deynega"
+                };
+                Console.WriteLine(emp.ToString());
             }
-                Console.WriteLine("Welcome to test ID2...");
+                Console.WriteLine("Welcome to test SB...");
             Console.ReadKey();
         }
     }
