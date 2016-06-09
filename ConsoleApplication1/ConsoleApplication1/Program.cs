@@ -10,6 +10,16 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            for (int i = 0; i<1000; i++)
+            {
+                Employee emp = new Employee
+                {
+                    Id = i,
+                    Name = "Ivan Deynega"
+                };
+                Console.WriteLine(emp.ToString());
+            }
+                Console.WriteLine("Welcome to test SB...");
             Console.WriteLine("Test new");
             Console.ReadKey();
         }
