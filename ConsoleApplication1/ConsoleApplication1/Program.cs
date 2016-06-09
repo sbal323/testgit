@@ -10,7 +10,11 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to test ID2...");
+            for (int i = 0; i<1000; i++)
+            {
+                Console.WriteLine("Item " + i + Environment.NewLine);
+            }
+                Console.WriteLine("Welcome to test ID2...");
             Console.ReadKey();
         }
     }
